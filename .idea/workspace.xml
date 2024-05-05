@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added SequencedCollection &#10;Метод addLast() аналогичен add() и добавляет новый элемент в конец" />
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added addFirst(), getFirst() and getLast() methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="10765000" />
+      <workItem from="1714909446378" duration="11080000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714937843387</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added addFirst(), getFirst() and getLast() methods">
+      <option name="closed" value="true" />
+      <created>1714938088150</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714938088150</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +203,7 @@
     <MESSAGE value="Added Deque &#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
     <MESSAGE value="Added Stack &#10;&#10;Устарел, не рекомендован к использованию! Заменен на Deque.&#10;&#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
     <MESSAGE value="Added SequencedCollection &#10;Метод addLast() аналогичен add() и добавляет новый элемент в конец" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SequencedCollection &#10;Метод addLast() аналогичен add() и добавляет новый элемент в конец" />
+    <MESSAGE value="Added addFirst(), getFirst() and getLast() methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added addFirst(), getFirst() and getLast() methods" />
   </component>
 </project>
