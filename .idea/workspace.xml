@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added TreeSet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/webdev/CollectionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/CollectionsExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="2772000" />
+      <workItem from="1714909446378" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -95,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714911300374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Map">
+      <option name="closed" value="true" />
+      <created>1714912373452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912373452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!">
+      <option name="closed" value="true" />
+      <created>1714912559383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912559383</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +128,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
     <MESSAGE value="Added TreeSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TreeSet" />
+    <MESSAGE value="Added Map" />
+    <MESSAGE value="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!" />
   </component>
 </project>

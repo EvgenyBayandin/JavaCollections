@@ -1,14 +1,15 @@
 package ru.webdev;
 
-//import java.util.ArrayList;
-//import java.util.HashSet;
-//import java.util.LinkedList;
-//import java.util.List;
-//import java.util.LinkedHashSet;
-//import java.util.Set;
-//import java.util.TreeSet;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class CollectionsExample {
@@ -58,13 +59,19 @@ public class CollectionsExample {
 //
 //        System.out.println(fruits); // [apple, banana, kiwi, orange]
 
-        Map<String, Integer> fruits = new HashMap<>();
-        fruits.put("яблоко", 6); // дубликат перезаписывается новым значением ("яблоко", 4)
-        fruits.put("ананас", 6);
-        fruits.put("банан", 5);
-        fruits.put("яблоко", 4);
-        fruits.putIfAbsent("банан", 5); // здесь не добавится, т.к. такое значение уже есть, иначе добавится новое значение ("банан", 5)!
+//        Map<String, Integer> fruits = new HashMap<>();
+//        fruits.put("яблоко", 6); // дубликат перезаписывается новым значением ("яблоко", 4)
+//        fruits.put("ананас", 6);
+//        fruits.put("банан", 5);
+//        fruits.put("яблоко", 4);
+//        fruits.putIfAbsent("банан", 5); // здесь не добавится, т.к. такое значение уже есть, иначе добавится новое значение ("банан", 5)!
 
-        System.out.println(fruits); // {банан=5, яблоко=4, ананас=6}
+        Map<String, Integer> fruits = new LinkedHashMap<>();
+        fruits.putIfAbsent("яблоко", 6);
+        fruits.putIfAbsent("ананас", 6);
+        fruits.putIfAbsent("банан", 5);
+        fruits.putIfAbsent("яблоко", 4);
+
+        System.out.println(fruits); // {яблоко=6, ананас=6, банан=5} Сохраняется порядок добавленияб дубликаты не добавляются!
     }
 }
