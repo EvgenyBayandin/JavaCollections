@@ -4,8 +4,9 @@ package ru.webdev;
 //import java.util.HashSet;
 //import java.util.LinkedList;
 //import java.util.List;
-import java.util.LinkedHashSet;
+//import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class CollectionsExample {
     public static void main(String[] args) {
@@ -36,14 +37,24 @@ public class CollectionsExample {
 //
 //        System.out.println(fruits); // [banana, orange, apple, kiwi]
 
-        Set<String> fruits = new LinkedHashSet<>(); // Based on Set, unique items, ordered by insertion
+//        Set<String> fruits = new LinkedHashSet<>(); // Based on Set, unique items, ordered by insertion
+//        fruits.add("apple");
+//        fruits.add("kiwi");
+//        fruits.add("banana");
+//        fruits.add("orange");
+//        fruits.add("apple"); // Duplicate items will not be added
+//
+//        System.out.println(fruits); // [apple, kiwi, banana, orange]
+
+        Set<String> fruits = new TreeSet<>(); // Based on Set, unique items, sorted by insertion
         fruits.add("apple");
         fruits.add("kiwi");
         fruits.add("banana");
         fruits.add("orange");
         fruits.add("apple"); // Duplicate items will not be added
 
-        System.out.println(fruits); // [apple, kiwi, banana, orange]
+        System.out.println(fruits); // [apple, banana, kiwi, orange]
+
 
     }
 }
