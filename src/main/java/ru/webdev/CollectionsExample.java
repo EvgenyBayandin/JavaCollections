@@ -1,6 +1,7 @@
 package ru.webdev;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -84,12 +85,20 @@ public class CollectionsExample {
 //
 //        System.out.println(fruits); // {ананас=6, банан=5, яблоко=6} Сортируется по возрастанию! Дубликаты не добавляются!
 
-        Queue<Integer> queue = new LinkedList<>(); // Очередь - FIFO (First In First Out) "первым вошел, первым вышел".
-        queue.add(1);
-        queue.add(2);
-        queue.add(3);
-        while (!queue.isEmpty()) {
-            System.out.println(queue.poll()); // 1, 2, 3 - FIFO, порядок вывода сохраняется!
+//        Queue<Integer> queue = new LinkedList<>(); // Очередь - FIFO (First In First Out) "первым вошел, первым вышел".
+//        queue.add(1);
+//        queue.add(2);
+//        queue.add(3);
+//        while (!queue.isEmpty()) {
+//            System.out.println(queue.poll()); // 1, 2, 3 - FIFO, порядок вывода сохраняется!
+//        }
+
+        Deque<Integer> stack = new LinkedList<>(); // Стек - FILO (First In Last Out) "первым вошел, последним вышел".
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        while (!stack.isEmpty()) {
+            System.out.println(stack.pop()); // 3, 2, 1 - FILO, порядок вывода сохраняется наоборот!- FILO, "первым вошел, последним вышел".
         }
 
     }
