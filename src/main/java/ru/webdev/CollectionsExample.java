@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 import java.util.HashMap;
@@ -66,12 +67,21 @@ public class CollectionsExample {
 //        fruits.put("яблоко", 4);
 //        fruits.putIfAbsent("банан", 5); // здесь не добавится, т.к. такое значение уже есть, иначе добавится новое значение ("банан", 5)!
 
-        Map<String, Integer> fruits = new LinkedHashMap<>();
+//        Map<String, Integer> fruits = new LinkedHashMap<>();
+//        fruits.putIfAbsent("яблоко", 6);
+//        fruits.putIfAbsent("ананас", 6);
+//        fruits.putIfAbsent("банан", 5);
+//        fruits.putIfAbsent("яблоко", 4);
+//
+//        System.out.println(fruits); // {яблоко=6, ананас=6, банан=5} Сохраняется порядок добавленияб дубликаты не добавляются!
+
+        Map<String, Integer> fruits = new TreeMap<>();
         fruits.putIfAbsent("яблоко", 6);
         fruits.putIfAbsent("ананас", 6);
         fruits.putIfAbsent("банан", 5);
         fruits.putIfAbsent("яблоко", 4);
 
-        System.out.println(fruits); // {яблоко=6, ананас=6, банан=5} Сохраняется порядок добавленияб дубликаты не добавляются!
+        System.out.println(fruits); // {ананас=6, банан=5, яблоко=6} Сортируется по возрастанию! Дубликаты не добавляются!
+
     }
 }
