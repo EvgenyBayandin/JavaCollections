@@ -29,6 +29,9 @@ public class SequencedCollectionAndSetExample {
 
         System.out.println(list); // [2, 3]
 
+        list.clear();
+        System.out.println(list); // [] or NoSuchElementException
+
 
 
 
