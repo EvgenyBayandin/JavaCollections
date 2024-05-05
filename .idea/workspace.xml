@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added Deque &#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added Stack &#10;&#10;Устарел, не рекомендован к использованию! Заменен на Deque.&#10;&#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/webdev/CollectionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/CollectionsExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -37,6 +48,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
@@ -58,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="7325000" />
+      <workItem from="1714909446378" duration="10441000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -140,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714925200657</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Stack &#10;&#10;Устарел, не рекомендован к использованию! Заменен на Deque.&#10;&#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!">
+      <option name="closed" value="true" />
+      <created>1714927478281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714927478281</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +188,7 @@
     <MESSAGE value="Added TreeMap" />
     <MESSAGE value="Added Queue &#10;Очередь - FIFO (First In First Out) &quot;первым вошел, первым вышел&quot;, порядок вывода сохраняется!" />
     <MESSAGE value="Added Deque &#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Deque &#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
+    <MESSAGE value="Added Stack &#10;&#10;Устарел, не рекомендован к использованию! Заменен на Deque.&#10;&#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Stack &#10;&#10;Устарел, не рекомендован к использованию! Заменен на Deque.&#10;&#10;Стек - FILO (First In last Out) &quot;первым вошел, последним вышел&quot;, порядок вывода сохраняется наоборот!" />
   </component>
 </project>

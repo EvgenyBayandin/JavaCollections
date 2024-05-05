@@ -94,15 +94,15 @@ public class CollectionsExample {
 //            System.out.println(queue.poll()); // 1, 2, 3 - FIFO, порядок вывода сохраняется!
 //        }
 
-        Deque<Integer> stack = new LinkedList<>(); // Стек - FILO (First In Last Out) "первым вошел, последним вышел".
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        while (!stack.isEmpty()) {
-            System.out.println(stack.pop()); // 3, 2, 1 - FILO, порядок вывода сохраняется наоборот!- FILO, "первым вошел, последним вышел".
-        }
-
-        Stack<Integer> stack1 = new Stack<>(); // Стек - FILO (First In Last Out) "первым вошел, последним вышел". Устарел, не рекомендован к использованию! Заменен на Deque.
+//        Deque<Integer> stack = new LinkedList<>(); // Стек - FILO (First In Last Out) "первым вошел, последним вышел".
+//        stack.push(1);
+//        stack.push(2);
+//        stack.push(3);
+//        while (!stack.isEmpty()) {
+//            System.out.println(stack.pop()); // 3, 2, 1 - FILO, порядок вывода сохраняется наоборот!- FILO, "первым вошел, последним вышел".
+//        }
+//
+//        Stack<Integer> stack1 = new Stack<>(); // Стек - FILO (First In Last Out) "первым вошел, последним вышел". Устарел, не рекомендован к использованию! Заменен на Deque.
 
 
     }
