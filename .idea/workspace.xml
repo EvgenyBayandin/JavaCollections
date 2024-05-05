@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Second commit" />
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added LinkedHashMap">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/webdev/CollectionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/CollectionsExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="1610000" />
+      <workItem from="1714909446378" duration="3483000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -76,7 +78,47 @@
       <option name="project" value="LOCAL" />
       <updated>1714910894787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second commit">
+      <option name="closed" value="true" />
+      <created>1714911085621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714911085621</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added TreeSet">
+      <option name="closed" value="true" />
+      <created>1714911300374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714911300374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Map">
+      <option name="closed" value="true" />
+      <created>1714912373452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912373452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!">
+      <option name="closed" value="true" />
+      <created>1714912559383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912559383</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added LinkedHashMap">
+      <option name="closed" value="true" />
+      <created>1714912917826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912917826</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +137,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="Added TreeSet" />
+    <MESSAGE value="Added Map" />
+    <MESSAGE value="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!" />
+    <MESSAGE value="Added LinkedHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added LinkedHashMap" />
   </component>
 </project>
