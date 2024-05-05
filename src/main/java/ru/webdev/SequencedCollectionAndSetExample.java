@@ -19,21 +19,27 @@ public class SequencedCollectionAndSetExample {
 //        list.addFirst(-1);
 //        System.out.println(list.getFirst()); // -1
 
+//        SequencedCollection<Integer> list = new ArrayList<>();
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//        list.add(4);
+//        list.removeFirst();
+//        list.removeLast();
+//
+//        System.out.println(list); // [2, 3]
+//
+//        list.clear();
+//        System.out.println(list); // [] or NoSuchElementException
+
         SequencedCollection<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
+        for (int i = 0; i < 100_000_000; i++) {
+            list.add(i);
+        }
+
+        long start = System.currentTimeMillis();
         list.removeFirst();
-        list.removeLast();
-
-        System.out.println(list); // [2, 3]
-
-        list.clear();
-        System.out.println(list); // [] or NoSuchElementException
-
-
-
-
+        long totalTime = System.currentTimeMillis() - start;
+        System.out.printf("Total time: %s ms", totalTime); // Total time: 225 ms
     }
 }
