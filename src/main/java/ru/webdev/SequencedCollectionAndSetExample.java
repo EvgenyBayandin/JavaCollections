@@ -64,8 +64,9 @@ public class SequencedCollectionAndSetExample {
         System.out.println(numbers); // [1, 2, 3]
         System.out.println(numbers.reversed()); // [3, 2, 1]
 
-
-
+        numbers.removeFirst();
+        numbers.removeLast();
+        System.out.println(numbers); // [2]
 
 
     }
