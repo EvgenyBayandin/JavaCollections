@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.LinkedHashSet;
 import java.util.Queue;
 import java.util.Set;
+import java.util.Stack;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
@@ -100,6 +101,9 @@ public class CollectionsExample {
         while (!stack.isEmpty()) {
             System.out.println(stack.pop()); // 3, 2, 1 - FILO, порядок вывода сохраняется наоборот!- FILO, "первым вошел, последним вышел".
         }
+
+        Stack<Integer> stack1 = new Stack<>(); // Стек - FILO (First In Last Out) "первым вошел, последним вышел". Устарел, не рекомендован к использованию! Заменен на Deque.
+
 
     }
 }
