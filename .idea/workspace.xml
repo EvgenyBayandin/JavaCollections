@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added checking totalTime for operation removing first element in ArrayList">
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added checking totalTime for operation removing first element in LinkedList">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="11926000" />
+      <workItem from="1714909446378" duration="12354000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714939025545</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added checking totalTime for operation removing first element in LinkedList">
+      <option name="closed" value="true" />
+      <created>1714939158643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714939158643</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +241,7 @@
     <MESSAGE value="Added removeFirst() and removeLast() methods" />
     <MESSAGE value="Added clear() method" />
     <MESSAGE value="Added checking totalTime for operation removing first element in ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added checking totalTime for operation removing first element in ArrayList" />
+    <MESSAGE value="Added checking totalTime for operation removing first element in LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added checking totalTime for operation removing first element in LinkedList" />
   </component>
 </project>

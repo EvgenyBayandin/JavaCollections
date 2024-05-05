@@ -1,8 +1,10 @@
 package ru.webdev;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.SequencedCollection;
+import java.util.SequencedSet;
 
 public class SequencedCollectionAndSetExample {
 
@@ -43,15 +45,24 @@ public class SequencedCollectionAndSetExample {
 //        long totalTime = System.currentTimeMillis() - start;
 //        System.out.printf("Total time: %s ms", totalTime); // Total time: 225 ms
 
-        SequencedCollection<Integer> list = new LinkedList<>();
-        for (int i = 0; i < 100_000_000; i++) {
-            list.add(i);
-        }
+//        SequencedCollection<Integer> list = new LinkedList<>();
+//        for (int i = 0; i < 100_000_000; i++) {
+//            list.add(i);
+//        }
+//
+//        long start = System.currentTimeMillis();
+//        list.removeFirst();
+//        long totalTime = System.currentTimeMillis() - start;
+//        System.out.printf("Total time: %s ms", totalTime); // Total time: 0 ms
 
-        long start = System.currentTimeMillis();
-        list.removeFirst();
-        long totalTime = System.currentTimeMillis() - start;
-        System.out.printf("Total time: %s ms", totalTime); // Total time: 0 ms
+        SequencedSet<Integer> numbers = new LinkedHashSet<>();
+        numbers.addFirst(1);
+        numbers.addLast(2); // аналогично методу add()
+        numbers.addLast(3);
+        numbers.addFirst(1); // игнорируем, т.к. уже добавлен
+
+        System.out.println(numbers); // [1, 2, 3]
+
 
 
     }
