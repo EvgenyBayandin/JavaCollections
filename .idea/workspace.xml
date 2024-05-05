@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added checking totalTime for operation removing first element in LinkedList">
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added removeFirst() and removeLast() in SequencedSet">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="12354000" />
+      <workItem from="1714909446378" duration="12781000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -209,7 +209,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714939158643</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added SequencedSet">
+      <option name="closed" value="true" />
+      <created>1714939540754</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714939540754</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added reversed() in SequencedSet">
+      <option name="closed" value="true" />
+      <created>1714939619901</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714939619901</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added removeFirst() and removeLast() in SequencedSet">
+      <option name="closed" value="true" />
+      <created>1714939688456</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714939688456</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +266,9 @@
     <MESSAGE value="Added clear() method" />
     <MESSAGE value="Added checking totalTime for operation removing first element in ArrayList" />
     <MESSAGE value="Added checking totalTime for operation removing first element in LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added checking totalTime for operation removing first element in LinkedList" />
+    <MESSAGE value="Added SequencedSet" />
+    <MESSAGE value="Added reversed() in SequencedSet" />
+    <MESSAGE value="Added removeFirst() and removeLast() in SequencedSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added removeFirst() and removeLast() in SequencedSet" />
   </component>
 </project>
