@@ -76,6 +76,7 @@ public class SequencedCollectionAndSetExample {
         numbers.add(1);
 
         System.out.println(numbers); // [1, 2, 3]
+        System.out.println(numbers.reversed()); // [3, 2, 1]
 
     }
 }
