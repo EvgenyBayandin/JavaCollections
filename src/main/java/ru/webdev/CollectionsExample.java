@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.LinkedHashSet;
+import java.util.Queue;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
@@ -75,13 +76,21 @@ public class CollectionsExample {
 //
 //        System.out.println(fruits); // {яблоко=6, ананас=6, банан=5} Сохраняется порядок добавленияб дубликаты не добавляются!
 
-        Map<String, Integer> fruits = new TreeMap<>();
-        fruits.putIfAbsent("яблоко", 6);
-        fruits.putIfAbsent("ананас", 6);
-        fruits.putIfAbsent("банан", 5);
-        fruits.putIfAbsent("яблоко", 4);
+//        Map<String, Integer> fruits = new TreeMap<>();
+//        fruits.putIfAbsent("яблоко", 6);
+//        fruits.putIfAbsent("ананас", 6);
+//        fruits.putIfAbsent("банан", 5);
+//        fruits.putIfAbsent("яблоко", 4);
+//
+//        System.out.println(fruits); // {ананас=6, банан=5, яблоко=6} Сортируется по возрастанию! Дубликаты не добавляются!
 
-        System.out.println(fruits); // {ананас=6, банан=5, яблоко=6} Сортируется по возрастанию! Дубликаты не добавляются!
+        Queue<Integer> queue = new LinkedList<>(); // Очередь - FIFO (First In First Out) "первым вошел, первым вышел".
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        while (!queue.isEmpty()) {
+            System.out.println(queue.poll()); // 1, 2, 3 - FIFO, порядок вывода сохраняется!
+        }
 
     }
 }
