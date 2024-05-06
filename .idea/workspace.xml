@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added pollFirstEntry(), pollLastEntry() для удаления, clear() для очистки in TreeMap" />
+    <list default="true" id="93b8f6c3-c484-487a-9ec4-800332d24f49" name="Changes" comment="Added sequencedKeySet(), sequencedValues(), sequencedEntrySet() для получения упорядоченного множества элементов in TreeMap">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/webdev/SequencedCollectionAndSetExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714907915776</updated>
       <workItem from="1714907916941" duration="1104000" />
-      <workItem from="1714909446378" duration="15898000" />
+      <workItem from="1714909446378" duration="17106000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <option name="closed" value="true" />
@@ -279,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714990011957</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated pollFirstEntry(), pollLastEntry() для удаления, clear() для очистки in TreeMap">
+      <option name="closed" value="true" />
+      <created>1714990138350</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1714990138350</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added firstEntry(), lastEntry() для получения элементов, clear() для очистки in TreeMap">
+      <option name="closed" value="true" />
+      <created>1714990334625</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1714990334625</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +316,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Second commit" />
     <MESSAGE value="Added TreeSet" />
     <MESSAGE value="Added Map" />
     <MESSAGE value="Added putIfAbsent()&#10;Этот метод проверяет наличие значения в HashMap и добавляет, если оно отсуствует, иначе игнорирует.&#10;В случае обычного добавления put() значение перезапишется дублем!" />
@@ -320,6 +338,9 @@
     <MESSAGE value="Added putLast() and putFirst() in SequencedMap" />
     <MESSAGE value="Added TreeMap" />
     <MESSAGE value="Added pollFirstEntry(), pollLastEntry() для удаления, clear() для очистки in TreeMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pollFirstEntry(), pollLastEntry() для удаления, clear() для очистки in TreeMap" />
+    <MESSAGE value="Updated pollFirstEntry(), pollLastEntry() для удаления, clear() для очистки in TreeMap" />
+    <MESSAGE value="Added firstEntry(), lastEntry() для получения элементов, clear() для очистки in TreeMap" />
+    <MESSAGE value="Added sequencedKeySet(), sequencedValues(), sequencedEntrySet() для получения упорядоченного множества элементов in TreeMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sequencedKeySet(), sequencedValues(), sequencedEntrySet() для получения упорядоченного множества элементов in TreeMap" />
   </component>
 </project>

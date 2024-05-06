@@ -99,14 +99,22 @@ public class SequencedCollectionAndSetExample {
 //        map.clear(); // очищаем map
 //        System.out.println(map); // {}
 
+//        SequencedMap<String, Integer> map = new TreeMap<>();
+//        map.put("ccc", 789);
+//        map.put("aaa", 123);
+//        map.put("bbb", 456);
+//        System.out.println(map.firstEntry()); //получаем первый элемент aaa=123
+//        System.out.println(map.lastEntry()); //получаем последний элемент ccc=789
+//        map.clear(); // очищаем map
+//        System.out.println(map.lastEntry()); // null
+
         SequencedMap<String, Integer> map = new TreeMap<>();
         map.put("ccc", 789);
         map.put("aaa", 123);
         map.put("bbb", 456);
-        System.out.println(map.firstEntry()); //получаем первый элемент aaa=123
-        System.out.println(map.lastEntry()); //получаем последний элемент ccc=789
-        map.clear(); // очищаем map
-        System.out.println(map.lastEntry()); // null
+        System.out.println(map.sequencedKeySet()); // [aaa, bbb, ccc]
+        System.out.println(map.sequencedValues()); // [123, 456, 789]
+        System.out.println(map.sequencedEntrySet()); // [aaa=123, bbb=456, ccc=789]
 
     }
 }
