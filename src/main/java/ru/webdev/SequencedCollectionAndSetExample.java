@@ -1,10 +1,13 @@
 package ru.webdev;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.SequencedCollection;
+import java.util.SequencedMap;
 import java.util.SequencedSet;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class SequencedCollectionAndSetExample {
@@ -70,13 +73,20 @@ public class SequencedCollectionAndSetExample {
 //        System.out.println(numbers); // [2]
 
 
-        SequencedSet<Integer> numbers = new TreeSet<>();
-        numbers.add(2); // addfirst() and addLast() не поддерживаются, т.к. TreeSet сортирует элементы и нельзя определить порядок при добавлении
-        numbers.add(3);
-        numbers.add(1);
+//        SequencedSet<Integer> numbers = new TreeSet<>();
+//        numbers.add(2); // addfirst() and addLast() не поддерживаются, т.к. TreeSet сортирует элементы и нельзя определить порядок при добавлении
+//        numbers.add(3);
+//        numbers.add(1);
+//
+//        System.out.println(numbers); // [1, 2, 3]
+//        System.out.println(numbers.reversed()); // [3, 2, 1]
 
-        System.out.println(numbers); // [1, 2, 3]
-        System.out.println(numbers.reversed()); // [3, 2, 1]
+        SequencedMap<String, Integer> map = new LinkedHashMap<>();
+        map.put("ccc", 789);
+        map.put("bbb", 456); // аналогично методу put()
+        map.put("aaa", 123);
+        System.out.println(map); // {ccc=789, bbb=456, aaa=123}
+        System.out.println(map.reversed()); // {aaa=123, bbb=456, ccc=789}
 
     }
 }
