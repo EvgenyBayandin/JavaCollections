@@ -93,10 +93,10 @@ public class SequencedCollectionAndSetExample {
         map.put("aaa", 123);
 //        map.putLast("bbb", 456); // UnsupportedOperationException
         map.put("bbb", 456);
-        System.out.println(map.pollFirstEntry()); //aaa=123
-        System.out.println(map.pollLastEntry()); //ccc=789
-        System.out.println(map); // {bbb=456}
-        map.clear();
+        System.out.println(map.pollFirstEntry()); //удаляем первый элемент aaa=123
+        System.out.println(map.pollLastEntry()); //удаляем последний элемент ccc=789
+        System.out.println(map); // остался {bbb=456}
+        map.clear(); // очищаем map
         System.out.println(map); // {}
 
     }
