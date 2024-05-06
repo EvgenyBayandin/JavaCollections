@@ -92,7 +92,12 @@ public class SequencedCollectionAndSetExample {
         map.put("ccc", 789);
         map.put("aaa", 123);
 //        map.putLast("bbb", 456); // UnsupportedOperationException
-        System.out.println(map); // {aaa=123, ccc=789}
+        map.put("bbb", 456);
+        System.out.println(map.pollFirstEntry()); //aaa=123
+        System.out.println(map.pollLastEntry()); //ccc=789
+        System.out.println(map); // {bbb=456}
+        map.clear();
+        System.out.println(map); // {}
 
     }
 }
