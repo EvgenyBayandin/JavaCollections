@@ -88,16 +88,25 @@ public class SequencedCollectionAndSetExample {
 //        System.out.println(map); // {aaa=123, ccc=789, bbb=456}
 //        System.out.println(map.reversed()); // {bbb=456, ccc=789, aaa=123}
 
+//        SequencedMap<String, Integer> map = new TreeMap<>();
+//        map.put("ccc", 789);
+//        map.put("aaa", 123);
+////        map.putLast("bbb", 456); // UnsupportedOperationException
+//        map.put("bbb", 456);
+//        System.out.println(map.pollFirstEntry()); //удаляем первый элемент aaa=123
+//        System.out.println(map.pollLastEntry()); //удаляем последний элемент ccc=789
+//        System.out.println(map); // остался {bbb=456}
+//        map.clear(); // очищаем map
+//        System.out.println(map); // {}
+
         SequencedMap<String, Integer> map = new TreeMap<>();
         map.put("ccc", 789);
         map.put("aaa", 123);
-//        map.putLast("bbb", 456); // UnsupportedOperationException
         map.put("bbb", 456);
-        System.out.println(map.pollFirstEntry()); //удаляем первый элемент aaa=123
-        System.out.println(map.pollLastEntry()); //удаляем последний элемент ccc=789
-        System.out.println(map); // остался {bbb=456}
+        System.out.println(map.firstEntry()); //получаем первый элемент aaa=123
+        System.out.println(map.lastEntry()); //получаем последний элемент ccc=789
         map.clear(); // очищаем map
-        System.out.println(map); // {}
+        System.out.println(map.lastEntry()); // null
 
     }
 }
