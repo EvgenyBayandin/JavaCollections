@@ -82,11 +82,11 @@ public class SequencedCollectionAndSetExample {
 //        System.out.println(numbers.reversed()); // [3, 2, 1]
 
         SequencedMap<String, Integer> map = new LinkedHashMap<>();
-        map.put("ccc", 789);
-        map.put("bbb", 456); // аналогично методу put()
-        map.put("aaa", 123);
-        System.out.println(map); // {ccc=789, bbb=456, aaa=123}
-        System.out.println(map.reversed()); // {aaa=123, bbb=456, ccc=789}
+        map.putLast("ccc", 789);
+        map.putLast("bbb", 456); // аналогично методу put()
+        map.putFirst("aaa", 123);
+        System.out.println(map); // {aaa=123, ccc=789, bbb=456}
+        System.out.println(map.reversed()); // {bbb=456, ccc=789, aaa=123}
 
     }
 }
